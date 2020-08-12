@@ -17,6 +17,22 @@ function buildTable(data) {
 }
 
 function handleClick() {
+    // grab datetime from the filter
     let date = d3.select("#datetime").property("value");
     let filterData = tableData;
-}
+
+    // check for user-selected datetime in tableData
+    if(date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    };
+    
+    // rebuild table using filtered data
+    buildTable(filteredData);
+
+    // listen for click event
+    d2.selectAll("#filter-btn").on("click", handleClick);
+
+    // build table when page loads
+    buildTable(tableData);
+};   
+
