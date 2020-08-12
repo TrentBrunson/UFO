@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="static/css/style.css">
 
 </head>
+
 <body>
     <!-- setting up wrapper -->
     <div class="wrapper">
@@ -22,10 +23,10 @@
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>
-    <div class="jumbotron">
-        <h18>the TRUTH is out there</h18>
+    <div class="jumbotron text-center">
+        <h2>the TRUTH is out there</h2>
     </div>
-    <div class="container fluid">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
                 <h3>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h3>
@@ -39,7 +40,7 @@
                 </p>
             </div>
         </div>
-        <div class="container fluid">
+        <div class="container-fluid"> 
             <div class="row">
                 <div class="col-md-3">
                     <form>
@@ -51,7 +52,7 @@
                             </li>
                             <li class="list-group-item">
                                 <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-                            </li>
+                            </li><br>
                         </ul>
                     </form>
                 </div>
@@ -68,10 +69,14 @@
                                 <th>Comments</th>
                             </tr>
                         </thead>
+                        <tbody></tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
 </body>
 </html>
