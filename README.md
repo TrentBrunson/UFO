@@ -1,5 +1,5 @@
 # UFO
----  
+   
 ### Overview  
 --- 
 Requestor provided a database of reported UFO sitings.  Built a front end with HTML, CSS & JavaScript to allow users to have a dynamic filter to select data from the dataset.
@@ -19,5 +19,4 @@ VS Code
 
 ### Future Recommendations
 ---  
-To use the filter correctly, a user needs to know the exact text.  Future revisions will update the search fields to the list of values in that column.  
-Also adding a duration and/or a comments search could be useful updates.
+To use the filter correctly, a user needs to know the exact text.  Future revisions will update the search fields to the list of values in that column.  Also adding a duration and/or a comments search could be useful updates.
