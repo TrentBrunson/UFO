@@ -19,4 +19,5 @@ VS Code
 
 ### Future Recommendations
 ---  
-To use the filter correctly
+To use the filter correctly, a user needs to know the exact text.  Future revisions will update the search fields to the list of values in that column.  
+Also adding a duration and/or a comments search could be useful updates.
