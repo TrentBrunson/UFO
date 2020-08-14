@@ -1,6 +1,7 @@
 # UFO
 ---  
-### Overview
+### Overview  
+--- 
 Requestor provided a database of reported UFO sitings.  Built a front end with HTML, CSS & JavaScript to allow users to have a dynamic filter to select data from the dataset.
 
 ### Resources  
